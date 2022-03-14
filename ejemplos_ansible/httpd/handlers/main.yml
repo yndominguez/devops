@@ -1,9 +1,0 @@
----
-# handlers file for httpd
-#
-- name: restart_httpd
-   service:
-     name: httpd
-     state: restarted
-   listen: "restart_httpd"
-
